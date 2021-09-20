@@ -1,7 +1,6 @@
 /** @format */
 
 import mongoose from "mongoose";
-import { string } from "prop-types";
 
 const orderSchema = mongoose.Schema(
   {
@@ -60,7 +59,7 @@ const orderSchema = mongoose.Schema(
       default: 0.0,
     },
     isPaid: {
-      type: Boolena,
+      type: Boolean,
       required: true,
       default: false,
     },
